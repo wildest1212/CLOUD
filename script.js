@@ -90,17 +90,6 @@ function drawImageCover(image) {
 function drawMissingBackgroundFallback() {
   context.fillStyle = "#d7e7f7";
   context.fillRect(0, 0, canvas.width, canvas.height);
-
-  context.fillStyle = "rgba(255, 255, 255, 0.96)";
-  context.fillRect(24, 390, 464, 94);
-
-  context.fillStyle = "#123772";
-  context.textAlign = "center";
-  context.textBaseline = "middle";
-  context.font = '700 24px Arial, "Microsoft YaHei", sans-serif';
-  context.fillText("请将背景图保存为 background.png", canvas.width / 2, 425);
-  context.font = '600 18px Arial, "Microsoft YaHei", sans-serif';
-  context.fillText("并放到当前项目目录", canvas.width / 2, 456);
 }
 
 function drawBackground() {
